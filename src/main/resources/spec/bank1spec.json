@@ -1,0 +1,53 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "name": {
+        "*": {
+          "$": "customerDemographic.name"
+        }
+      },
+      "contact": {
+        "*": {
+          "$": "customerDemographic.contact"
+        }
+      },
+      "email": {
+        "*": {
+          "$": "customerDemographic.email"
+        }
+      },
+      "panNo": {
+        "*": {
+          "$": "panNo"
+        }
+      },
+      "creditScore": {
+        "*": {
+          "$": "creditScore"
+        }
+      },
+      "amount": {
+        "*": {
+          "$": "amount"
+        }
+      },
+      "year": {
+        "*": {
+          "$": "year"
+        }
+      },
+      "loanType": {
+        "HOME": {
+          "#HOME_LOAN": "loanType"
+        },
+        "PERSONAL": {
+          "#PERSONAL_LOAN": "loanType"
+        },
+        "CAR": {
+          "#CAR_LOAN": "loanType"
+        }
+      }
+    }
+  }
+]

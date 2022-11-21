@@ -1,0 +1,42 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "name": {
+        "*": {
+          "$": "customerName"
+        }
+      },
+      "contact": {
+        "*": {
+          "$": "contact"
+        }
+      },
+      "panNo": {
+        "*": {
+          "$": "pan"
+        }
+      },
+      "creditScore": {
+        "*": {
+          "$": "creditScore"
+        }
+      },
+      "amount": {
+        "*": {
+          "$": "amount"
+        }
+      },
+      "year": {
+        "*": {
+          "$": "year"
+        }
+      },
+      "loanType": {
+        "*": {
+          "$": "loanType"
+        }
+      }
+    }
+  }
+]
